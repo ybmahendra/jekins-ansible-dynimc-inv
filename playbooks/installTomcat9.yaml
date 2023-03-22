@@ -1,4 +1,4 @@
-- hosts: tomcatservers
+- hosts: dbserver
   become: true
   tasks:
     - name: Install Java
